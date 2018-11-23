@@ -14,6 +14,6 @@ export default class SteamedMilk extends CondimentDecorator {
     }
 
     cost(): number {
-        return 0.20 + this.beverage.cost();
+        return 0.10 + this.beverage.cost();
     }
 }

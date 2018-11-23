@@ -14,6 +14,6 @@ export default class Soy extends CondimentDecorator {
     }
 
     cost(): number {
-        return 0.20 + this.beverage.cost();
+        return 0.15 + this.beverage.cost();
     }
 }
