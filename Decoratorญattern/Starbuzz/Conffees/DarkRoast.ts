@@ -7,6 +7,6 @@ export default class DarkRoast extends Beverage {
     }
 
     const(): number {
-        return 1.99;
+        return 0.99;
     }
 }
