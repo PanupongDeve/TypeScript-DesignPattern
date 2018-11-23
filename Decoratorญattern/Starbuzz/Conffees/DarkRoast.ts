@@ -6,7 +6,7 @@ export default class DarkRoast extends Beverage {
         this.description = 'Dark Roast Coffee';
     }
 
-    const(): number {
+    cost(): number {
         return 0.99;
     }
 }

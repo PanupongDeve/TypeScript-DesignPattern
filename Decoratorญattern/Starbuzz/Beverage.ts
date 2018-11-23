@@ -6,5 +6,5 @@ export default abstract class Beverage {
         return this.description;
     }
 
-    public abstract const(): number;
+    public abstract cost(): number;
 }

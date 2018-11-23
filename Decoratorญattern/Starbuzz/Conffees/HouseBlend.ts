@@ -6,7 +6,7 @@ export default class HouseBlend extends Beverage {
         this.description = 'House Blend Coffee';
     }
 
-    const(): number {
+    cost(): number {
         return 0.89;
     }
 }

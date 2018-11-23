@@ -6,7 +6,7 @@ export default class Expresso extends Beverage {
         this.description = 'Expresso';
     }
 
-    const(): number {
+    cost(): number {
         return 1.99;
     }
 }

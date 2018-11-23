@@ -6,7 +6,7 @@ export default class Decaf extends Beverage {
         this.description = 'Decaf Coffee';
     }
 
-    const(): number {
+    cost(): number {
         return 1.05;
     }
 }
