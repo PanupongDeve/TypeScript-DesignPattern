@@ -1,7 +1,7 @@
 import CondimentDecorator from '../CondimentDecorator';
 import Beverage from '../Beverage';
 
-export default class Mocha extends CondimentDecorator {
+export default class Whip extends CondimentDecorator {
     beverage: Beverage;
 
     constructor(beverage: Beverage) {
@@ -10,7 +10,7 @@ export default class Mocha extends CondimentDecorator {
     }
 
     getDescription(): String {
-        return `${this.beverage.getDescription()}, Mocha`;
+        return `${this.beverage.getDescription()}, Whip`;
     }
 
     cost(): number {
