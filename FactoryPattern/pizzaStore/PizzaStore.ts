@@ -1,6 +1,6 @@
 import Pizza from './Pizza';
 
-export abstract class PizzaStore {
+export default abstract class PizzaStore {
     public orderPizza(type: string): Pizza {
         let pizza: Pizza;
 
@@ -13,5 +13,5 @@ export abstract class PizzaStore {
         return pizza;
     }
 
-    abstract createPizza(type: string);
+    protected abstract createPizza(type: string): Pizza;
 }
