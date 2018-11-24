@@ -24,4 +24,8 @@ export default abstract class Pizza {
         console.log('Place pizza in offical PizzaStore box');
     }
 
+    public getName(): string {
+        return this.name;
+    }
+
 }

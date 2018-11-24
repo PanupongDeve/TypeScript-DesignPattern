@@ -8,7 +8,7 @@ import {
     NyStyleVeggiePizza
 } from '../productClass/newyorkstyle';
 
-export class NYStylePizzaStore extends PizzaStore {
+export default class NYStylePizzaStore extends PizzaStore {
     public createPizza(type: string): Pizza {
         let pizza: Pizza;
         if (type === 'cheese') {

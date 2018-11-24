@@ -1,20 +1,13 @@
 import Pizza from '../../Pizza';
 
 export class NyStyleCheesePizza extends Pizza {
-    public prepare() {
+    constructor() {
+        super();
+        this.name = 'NY Style Sauce and Cheese Pizza';
+        this.dough = 'Thin Crust Dough';
+        this.sauce = 'Marinara sauce';
 
-    }
-
-    public bake() {
-
-    }
-
-    public cut() {
-
-    }
-
-    public box() {
-
+        this.toppings.push('Grated Reggino Cheese');
     }
 }
 
